@@ -1,0 +1,246 @@
+button {
+    border-radius: 4px;
+    color: #5C3F32;
+    padding: 10px 32px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: white
+}
+.header {
+  text-align: center;
+  background-color: white;
+  resize: both;
+  overflow: auto;
+}
+#container{
+  text-align: center;
+  background: white;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+}
+.slideimage {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Hide the images by default */
+.mySlides  {
+  text-align: center
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*About us */
+.aboutuspage{
+  display: flex;
+  max-width: auto;
+  justify-content:center;
+  position: absolute;
+  top: 235;
+  right:0;
+  left:0;
+}
+.aboutusimage{
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+.aboutusbody{
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top:70px;
+  max-width: 600px;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+/*Branches page */
+.branchespage{
+  position: absolute;
+  display: flex;
+  max-width: auto;
+  max-height: auto;
+  top: 240;
+  left:70;
+}
+.card {
+  position: relative;
+  top: 50;
+  left: 50;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 350px;
+  max-height: 350px;
+}
+.card1 {
+  position: relative;
+  top: 50;
+  left: 125;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 350px;
+  max-height: 350px;
+}
+.card2 {
+  position: relative;
+  top: 50;
+  left: 200;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 350px;
+  max-height: 350px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container1 {
+  padding: 2px 16px;
+  background-color: white;
+}
+.branch{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+h3{
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #5C3F32;
+}
+
+/* Products Page */
+.productstable{
+  position: absolute;
+  display: flex;
+  max-width: auto;
+  max-height: auto;
+  top: 155;
+  left:-250;
+}
+.content-table1{
+  border-collapse: collapse;
+  margin: 25px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+  position:relative;
+  left: 600;
+  top: 90;
+  background-color: #c4a487;
+}
+.content-table2{
+  border-collapse: collapse;
+  margin: 25px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: #c4a487;
+  position:relative;
+  left: 700;
+  bottom: -90;
+}
+.content-table2::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+.content-table1 thead tr{
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+  color:#5C3F32;
+  text-align: center;
+}
+.content-table2 thead tr{
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+  color:#5C3F32;
+  text-align: center;
+}
+.editbtn{
+    border-radius: 4px;
+    color: #5C3F32;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: white
+}
+.coffeeproducts{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+footer {
+  font-family: 'Nunito', sans-serif;
+  position: fixed;
+  color: #5C3F32;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+}

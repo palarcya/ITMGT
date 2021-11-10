@@ -215,14 +215,16 @@ h3{
   color:#5C3F32;
   text-align: center;
 }
-.editbtn{
+.productsbutton{
+    position: absolute;
+    top:800;
+    left: 1150;
     border-radius: 4px;
     color: #5C3F32;
-    padding: 5px 10px;
-    text-align: center;
+    padding: 5px 15px;
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
-    margin: 4px 2px;
+    margin: 5px 2px;
     cursor: pointer;
     border: white
 }
